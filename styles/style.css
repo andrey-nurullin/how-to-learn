@@ -155,6 +155,7 @@
 
 .section-title_theme_dark {
   color: white;
+  z-index: 1;
 }
 
 .section-subtitle {
@@ -167,6 +168,7 @@
 
 .section-subtitle_theme_dark {
   color: white;
+  z-index: 1;
 }
 
 .digits__section-subtitle {
@@ -186,6 +188,14 @@
   margin-top: 60px;
 }
 
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+  z-index: 1;
+}
+
 .table__heading {
   margin: 0;
   line-height: 1.15;
@@ -198,13 +208,6 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
 
 .feynman {
@@ -243,8 +246,20 @@
 
 .kaufman {
   background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
 }
 
 .content__kaufman {
   padding: 90px 0;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+  background-image: url('../images/kaufman-triangle.svg');
+  background-size: cover;
 }
