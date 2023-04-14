@@ -98,9 +98,6 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-}
-
-.description__two-columns {
   width: 80%;
 }
 
