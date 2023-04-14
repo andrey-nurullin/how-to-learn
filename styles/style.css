@@ -231,6 +231,7 @@
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
+  /* Правило выше необходимо, чтобы треугольник не выходил за пределы этого блока. Бриф стр.15 п.1 */
   padding: 90px 0;
   z-index: 1;
 }
