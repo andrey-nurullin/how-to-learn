@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.page_centered {
+  margin: 0 auto;
+}
+
 .centered-block {
   margin: 0 auto;
 }
