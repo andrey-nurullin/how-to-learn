@@ -9,8 +9,6 @@
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  /* Убрать после завершения, граница не нужна */ box-sizing: border-box;
-  /* Убрать после завершения, граница не нужна */ border: 2px solid #bfbfbf;
   display: flex;
   flex-direction: column;
 }
@@ -260,5 +258,61 @@
 
 .footer {
   min-height: 350px;
+  color: white;
   background-color: #1f1f1f;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 40px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  margin: 0 0 16px;
+}
+
+.footer__column-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  position: relative;
+  top: 1px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
