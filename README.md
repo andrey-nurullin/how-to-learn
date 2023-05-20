@@ -3,3 +3,5 @@
 1. HTML 5
 2. CSS 3
 3. Git
+
+Проверить работу сайта можно по ссылке https://andrey-nurullin.github.io/how-to-learn/
